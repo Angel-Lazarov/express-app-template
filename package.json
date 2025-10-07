@@ -1,0 +1,21 @@
+{
+  "name": "express-application",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "basic set up for express project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "angel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "firebase": "^12.3.0",
+    "firebase-admin": "^13.5.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

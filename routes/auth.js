@@ -2,8 +2,8 @@
 // само за /auth
 
 import { Router } from "express";
-import { validateAuth } from "../../middleware/validateAuth.js"; //импортираме middleware за валидация на входните данни
-import { loginUser, registerUser } from "../../controllers/authController.js"; // импортираме контролера за регистрация
+import { validateAuth } from "../middleware/validateAuth.js"; //импортираме middleware за валидация на входните данни
+import { loginUser, registerUser } from "../controllers/authController.js"; // импортираме контролера за регистрация
 const router = Router();
 
 // POST /auth/login

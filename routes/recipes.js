@@ -3,8 +3,8 @@
 
 import { Router } from "express";
 //импортираме middleware за валидация на токена
-import { verifyToken } from "../../middleware/authJWT.js";
-import { createRecipe, getAllRecipes, getRecipeById, updateRecipe, deleteRecipe, getMyRecipes } from "../../controllers/recipeController.js";
+import { verifyToken } from "../middleware/authJWT.js";
+import { createRecipe, getAllRecipes, getRecipeById, updateRecipe, deleteRecipe, getMyRecipes } from "../controllers/recipeController.js";
 
 const router = Router();
 
